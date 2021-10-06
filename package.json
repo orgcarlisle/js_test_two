@@ -1,0 +1,7 @@
+{
+  "name": "js_test_two",
+  "packageManager": "yarn@3.0.2",
+  "dependencies": {
+    "netmask": "1.0.4"
+  }
+}
