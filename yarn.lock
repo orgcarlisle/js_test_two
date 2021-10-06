@@ -5,10 +5,21 @@ __metadata:
   version: 4
   cacheKey: 8
 
+"anymatch@npm:3.1.1":
+  version: 3.1.1
+  resolution: "anymatch@npm:3.1.1"
+  dependencies:
+    normalize-path: ^3.0.0
+    picomatch: ^2.0.4
+  checksum: c951385862bf114807d594bdffccb769bd7219ddc14f24fc135cde075ad2477a97991567b8bb5032d4f279f96897f0c2af6468a350a6c674ac0a5ee3b62a26d6
+  languageName: node
+  linkType: hard
+
 "js_test_two@workspace:.":
   version: 0.0.0-use.local
   resolution: "js_test_two@workspace:."
   dependencies:
+    anymatch: 3.1.1
     netmask: 1.0.4
   languageName: unknown
   linkType: soft
@@ -17,5 +28,19 @@ __metadata:
   version: 1.0.4
   resolution: "netmask@npm:1.0.4"
   checksum: e21cc546119420338be90afe7f5540287559a2bfec7a3e649af8bb72165302239578dc6b03e52836ade41632277d6ea1ae54f3c8a95c7330ffe71cda91bd967e
+  languageName: node
+  linkType: hard
+
+"normalize-path@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "normalize-path@npm:3.0.0"
+  checksum: 88eeb4da891e10b1318c4b2476b6e2ecbeb5ff97d946815ffea7794c31a89017c70d7f34b3c2ebf23ef4e9fc9fb99f7dffe36da22011b5b5c6ffa34f4873ec20
+  languageName: node
+  linkType: hard
+
+"picomatch@npm:^2.0.4":
+  version: 2.3.0
+  resolution: "picomatch@npm:2.3.0"
+  checksum: 16818720ea7c5872b6af110760dee856c8e4cd79aed1c7a006d076b1cc09eff3ae41ca5019966694c33fbd2e1cc6ea617ab10e4adac6df06556168f13be3fca2
   languageName: node
   linkType: hard
